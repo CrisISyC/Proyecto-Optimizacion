@@ -11,6 +11,7 @@ class Ingenieria:
         #nombres carreras
         
         self.sistemas ="ingenieria_de_sistemas"
+        self.industrial ="ingenieria_industrial"
         
         #Constantes para el número de admitidos
         self.admitidos_agricola =70
@@ -81,6 +82,7 @@ class Ingenieria:
     
     def reporte(self):
         self.materias_ingenieria.reporteInscripciones()
+        #self.materias_industrial.reporteInscripciones()
         
         
     def nuevos_admitidos(self):
@@ -92,3 +94,12 @@ class Ingenieria:
             student = Estudiante(self.key,self.sistemas)
             self.estudiantes.append(student)
             self.key+=1
+
+
+        #admitidos por industrial
+        
+        for i in range(0,self.admitidos_industrial):
+            
+            student = Estudiante(self.key,self.industrial)
+            self.estudiantes.append(student)
+            self.key+=1         
