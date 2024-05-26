@@ -65,56 +65,41 @@ class MallaIngenieria:
 
 
         self.materias = [
-            # Primer Semestre
             self.calculo_diferencial,
             self.introduccion_a_la_ingenieria_de_sistemas,
             self.programacion_de_computadores,
             self.pensamiento_sistemico,
-
-            # Segundo Semestre
             self.fundamentos_de_mecanica,
             self.calculo_integral,
             self.algebra_lineal,
             self.programacion_orientada_a_objetos,
-
-            # Tercer Semestre
             self.fundamentos_de_electricidad_y_magnetismo,
             self.calculo_en_varias_variables,
             self.matematicas_discretas_I,
             self.bases_de_datos,
             self.elementos_de_computadores,
-
-            # Cuarto Semestre
             self.probabilidad_y_estadistica_fundamental,
             self.ingenieria_economica,
             self.matematicas_discretas_II,
             self.estructuras_de_datos,
             self.arquitectura_de_computadores,
-
-            # Quinto Semestre
             self.modelos_y_simulacion,
             self.gerencia_y_gestion_de_proyectos,
             self.redes_de_computadores,
             self.ingenieria_de_software_I,
             self.introduccion_a_la_teoria_de_la_computacion,
-
-            # Sexto Semestre
             self.optimizacion,
             self.sistemas_de_informacion,
             self.metodos_numericos,
             self.ingenieria_de_software_II,
             self.algoritmos,
             self.sistemas_operativos,
-
-            # Séptimo Semestre
             self.modelos_estocasticos_y_simulacion_en_computacion_y_comunicaciones,
             self.arquitectura_de_infraestructura_y_gobierno_de_TICs,
             self.teoria_de_la_informacion_y_sistemas_de_comunicaciones,
             self.arquitectura_de_software,
             self.introduccion_a_los_sistemas_inteligentes,
             self.lenguajes_de_programacion,
-
-            # Octavo Semestre
             self.taller_de_proyectos_interdisciplinarios,
             self.computacion_paralela_y_distribuida,
             self.introduccion_a_la_criptografia_y_a_la_seguridad_de_la_informacion,
